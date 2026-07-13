@@ -1,37 +1,56 @@
 # 🤖 A Era Artificial - Landing Page
 
+<div align="center">
+  <img src="https://shields.io" alt="HTML5">
+  <img src="https://shields.io" alt="CSS3">
+  <img src="https://shields.io" alt="Curso DevMedia">
+</div>
+
 > [!NOTE]
-> **Entrega de Projeto:** Este repositório foi desenvolvido estritamente como um projeto prático de avaliação e entrega para o curso de desenvolvimento web da [DevMedia](https://devmedia.com.br).
+> **Projeto de Portfólio:** Este repositório foi desenvolvido como um projeto prático de avaliação para o curso de Desenvolvimento Web da [DevMedia](https://devmedia.com.br). O código original passou por um processo de refatoração para aplicar as melhores práticas do mercado.
 
-Esta é uma landing page limpa e direta desenvolvida para fins de divulgação e venda do livro de ficção científica **"A Era Artificial: O tempo sombrio das máquinas"**, do autor Diego Souza.
+Uma landing page limpa, moderna e totalmente responsiva desenvolvida para a divulgação e venda do livro de ficção científica **"A Era Artificial: O tempo sombrio das máquinas"**, do autor Diego Souza.
 
-O projeto apresenta de forma organizada a sinopse do livro, detalhes biográficos sobre o autor e links integrados para a compra do eBook na Amazon.
+O projeto apresenta de forma organizada a sinopse do livro, detalhes biográficos sobre o autor e links de conversão direta para a compra do eBook na Amazon.
 
-## 🚀 Tecnologias Utilizadas
+---
 
-O projeto foi construído utilizando as seguintes tecnologias web fundamentais:
+## 📱 Demonstração do Projeto
 
-- **HTML5:** Para a estruturação semântica de todas as seções e conteúdos da página.
-- **CSS3:** Para a estilização visual personalizada, controle total de esquemas de cores e resets de espaçamento (eliminando lacunas residuais e corrigindo o comportamento padrão do navegador).
+Aqui você pode ver o visual da landing page renderizada tanto em computadores quanto em dispositivos móveis:
 
-## 📝 Funcionalidades do Layout
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="60%">
+        <b>💻 Versão Desktop</b><br><br>
+        <img src="./img/preview-desktop.png" alt="Demonstração da versão Desktop" width="100%">
+      </td>
+      <td align="center" width="40%">
+        <b>📱 Versão Mobile</b><br><br>
+        <img src="./img/preview-mobile.png" alt="Demonstração da versão Mobile" width="100%">
+      </td>
+    </tr>
+  </table>
+</div>
 
-- Apresentação em destaque da capa do livro e sinopse principal.
-- Bloco dedicado com informações e perfil sobre o autor.
-- Botões de chamada para ação (_Call to Action_) vinculados diretamente à loja da Amazon Brasil.
-- Controle estrito de paleta de cores (`#f5f5f5`) para harmonização de fundo integral sem frestas.
+## 🚀 Tecnologias e Conceitos Aplicados
 
-## 💻 Como Rodar Localmente
+O projeto foi construído utilizando tecnologias fundamentais da web, focando em práticas modernas de arquitetura front-end:
 
-Caso queira clonar este repositório e executar o projeto em sua máquina local:
+- **HTML5 Semântico:** Substituição de contêineres genéricos por tags semânticas (`<header>`, `<main>`, `<section>`, `<footer`, `<strong>`) para melhorar a acessibilidade e o SEO.
+- **CSS3 Moderno:**
+  - Uso do modelo de caixa avançado com `box-sizing: border-box`.
+  - Implementação de **Design Responsivo** utilizando `max-width` e porcentagens para garantir compatibilidade perfeita com celulares, tablets e desktops.
+  - Adicionados efeitos de micro-interação como transições suaves (`transition: ease`) no estado `:hover` dos botões.
 
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com
-   ```
-2. Acesse a pasta do projeto no computador.
-3. Dê um duplo clique no arquivo `index.html` para abri-lo diretamente em qualquer navegador.
+## 📝 Funcionalidades em Destaque
 
-## 👤 Aluno / Autor do Código
+- **Seção Hero:** Apresentação de alto impacto com a capa do livro e sinopse principal.
+- **Storytelling:** Blocos de leitura estratégica sobre a narrativa e informações sobre o autor.
+- **Call to Action (CTA):** Botões fluidos de chamada para ação vinculados diretamente à loja da Amazon Brasil.
+- **Layout Mobile-First / Responsivo:** Experiência de leitura fluida que não quebra em telas menores.
 
-- Desenvolvido por **eilincoln**.
+## 👤 Desenvolvedor
+
+- **Eilincoln** — [@eilincoln](https://github.com/eilincoln)
