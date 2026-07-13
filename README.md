@@ -1,11 +1,5 @@
 # 🤖 A Era Artificial - Landing Page
 
-<div align="center">
-  <img src="https://shields.io" alt="HTML5">
-  <img src="https://shields.io" alt="CSS3">
-  <img src="https://shields.io" alt="Curso DevMedia">
-</div>
-
 > [!NOTE]
 > **Projeto de Portfólio:** Este repositório foi desenvolvido como um projeto prático de avaliação para o curso de Desenvolvimento Web da [DevMedia](https://devmedia.com.br). O código original passou por um processo de refatoração para aplicar as melhores práticas do mercado.
 
